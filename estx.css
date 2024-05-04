@@ -1,0 +1,94 @@
+
+
+.container a {
+    display: inline; /* Coloca los elementos en línea horizontal */
+    margin:0  -260px; /* Añade un margen entre las imágenes */
+    
+}
+
+    
+   
+img.cir {
+    height: 180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 510px;
+    border: 10px solid #fbb03b;
+    box-shadow: 6px 7px 9px 5px #fbb03b73;
+    align-content: center;}
+
+ img.de{
+  position: fixed;
+  bottom: 0;
+  right: 0 ;
+
+  height: 250px;
+    width: 350px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border: 5px solid #007bff;
+    box-shadow: 3px 3px 5px 2px #007bff;
+}
+
+img.iz{
+  position: fixed;
+  bottom: 0;
+  left:  0 ;
+
+  height: 250px;
+    width: 350px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border: 5px solid #007bff;
+    box-shadow: 3px 3px 5px 2px #007bff;
+
+}   
+
+li {
+    padding: 6px;
+    margin-bottom: 8px; /*es el espacio entre elementos para la lista*/
+    background-color: rgba(243, 63, 43, 0.493);
+    border-radius: 100px; /*es el redondel para el borde de cada elemento de la lista*/
+    /*color: #000080;*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);/*sonbra*/
+}
+li:hover {
+    background-color: #F5DEB3;
+}
+body {
+    background-color:salmon;
+} 
+.col-3 {width: 125%;} /*es para el largo que vamos a querer que se muestre*/
+
+/*Flecha*/
+
+img.de{
+    position: fixed;
+    bottom: 0;
+    right: 0 ;
+  }
+  
+  img.iz{
+    position: fixed;
+    bottom: 0;
+    left:  -200 ;
+  }
+  footer{
+    padding: 1 em;
+    color: white;
+    background-color:#F5DEB3;
+    clear: left;
+    text-align: center;
+    }
+  p, input{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(114, 212, 158); /* color de texto  y listas*/
+  }
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
